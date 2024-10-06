@@ -74,8 +74,8 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 For any questions or suggestions, feel free to reach out:
-- **Your Name**: [Your GitHub Profile](https://github.com/yourusername)
-- **Email**: your.email@example.com
+- **Hariom**: [Your GitHub Profile](https://github.com/hari7261)
+
 
 Happy Hacking! 🎉
 
