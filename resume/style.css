@@ -1,0 +1,112 @@
+/* General Styling */
+* {
+    color: white;
+}
+
+/* Importing Custom Font */
+@font-face {
+    font-family: 'Neue Machina Regular';
+    src: url('https://db.onlinewebfonts.com/t/38d41072aa88a50711d4d50dd0d50f6b.woff') format('woff');
+}
+
+/* Main Background Styling */
+#mainbg {
+    width: 792px;
+    height: auto;
+    background-color: #100F0F;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Cover Image Styling */
+.coverimage {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Like To Do Section Styling */
+#liketodo {
+    border: 2px solid;
+    border-radius: 15px;
+    width: 160%;
+}
+
+/* Name and Photo Section Styling */
+#Namephoto {
+    border: 2px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10%;
+    margin-top: -25%;
+    align-items: center;
+}
+
+#Namephoto > div > img {
+    border: 2px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* Heading and Text Styling */
+h1 {
+    font-family: 'anton';
+    font-size: 90px;
+    letter-spacing: -10px;
+    line-height: normal;
+}
+
+h2 {
+    font-family: 'Neue Machina Regular';
+    font-size: 19px;
+}
+
+h3 {
+    font-family: 'Neue Machina Regular';
+    font-size: 12px;
+}
+
+p {
+    font-family: 'Neue Machina Regular';
+    font-size: 11px;
+}
+
+#interest > div > div > p1 {
+    margin-top: 10px;
+    font-family: 'Neue Machina Regular';
+    font-size: 13px;
+}
+
+/* Interest Section Styling */
+#interest {
+    width: 90%;
+    border: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+/* Education and Skills Section Styling */
+#education {
+    border: 2px;
+    font-family: 'Neue Machina Regular';
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.edu, .skills {
+    border: 2px;
+    width: 40%;
+    padding-left: 10%;
+}
+
+/* Experience Container Styling */
+#Expcontainer {
+    width: 90%;
+    border: 2px;
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 40% 40%;
+    margin: 0 auto;
+    align-items: center;
+}
