@@ -1,0 +1,30 @@
+// A simple JavaScript game: Guess the Number
+
+let randomNumber = Math.floor(Math.random() * 100) + 1;
+let guessesLeft = 10;
+
+function checkGuess() {
+  let guess = parseInt(document.getElementById("guessInput").value);
+  let result = document.getElementById("result");
+
+  if (guess < 1 || guess > 100) {
+    result.textContent = "Please enter a number between 1 and 100.";
+  } else {
+    guessesLeft--;
+
+    if (guess === randomNumber) {
+      result.textContent = "Congratulations! You guessed it in " + (10 - guessesLeft) + " tries!";
+      disableGame();
+    } else if (guessesLeft === 0) {
+      result.textContent = "Sorry, you're out of guesses. The number was " + randomNumber + ".";
+      disableGame();
+    } else {
+      result.textContent = (guess < randomNumber) ? "Too low!" : "Too high!";
+    }
+  }
+}
+
+function disableGame() {
+  document.getElementById("guessInput").disabled = true;
+  document.getElementById("checkButton").disabled = true;
+}
