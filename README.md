@@ -90,19 +90,45 @@ For any questions or suggestions, feel free to reach out:
 </table>
 
 
-## Project Contributors
+## 🌟 Project Contributors
+
+We appreciate all contributions from our amazing community! Check out the contributors below:
 
 <table align="center">
   <tr>
     <td align="center">
       <a href="https://github.com/hari7261/Hacktoberfest-2024/graphs/contributors">
-        <img src="https://contrib.rocks/image?repo=hari7261/Hacktoberfest-2024" alt="Contributors" />
+        <img src="https://contrib.rocks/image?repo=hari7261/Hacktoberfest-2024" alt="Contributors" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
       </a>
     </td>
   </tr>
 </table>
 
-[See all contributors](./CONTRIBUTORS.md)
+<p align="center">
+  <a href="https://github.com/hari7261/Hacktoberfest-2024/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/hari7261/Hacktoberfest-2024?color=brightgreen&style=flat-square" alt="GitHub contributors badge" />
+  </a>
+  <a href="https://github.com/hari7261/Hacktoberfest-2024/issues">
+    <img src="https://img.shields.io/github/issues/hari7261/Hacktoberfest-2024?style=flat-square" alt="GitHub issues badge" />
+  </a>
+  <a href="https://github.com/hari7261/Hacktoberfest-2024/pulls">
+    <img src="https://img.shields.io/github/issues-pr/hari7261/Hacktoberfest-2024?style=flat-square" alt="GitHub pull requests badge" />
+  </a>
+</p>
+
+---
+
+### 🚀 How to Contribute
+
+We'd love your help! If you want to contribute, check out the following resources:
+
+- [Contributing Guidelines](https://github.com/hari7261/Hacktoberfest-2024/blob/main/CONTRIBUTING.md)
+- [Open Issues](https://github.com/hari7261/Hacktoberfest-2024/issues)
+- [Submit a Pull Request](https://github.com/hari7261/Hacktoberfest-2024/pulls)
+
+You can also participate in **Hacktoberfest 2024** by submitting contributions during the event!
+
+
 
 Happy Hacking! 🎉
 
