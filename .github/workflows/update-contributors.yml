@@ -1,0 +1,27 @@
+name: Update Contributors
+
+on:
+  schedule:
+    - cron: '0 0 * * 0' # Runs weekly, every Sunday at midnight
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the repository
+        uses: actions/checkout@v2
+
+      - name: Fetch contributors and update README
+        run: |
+          contributors=$(curl -s https://api.github.com/repos/${{ github.repository }}/contributors | jq -r '.[] | "* [\(.login)](https://github.com/\(.login)) - \(.contributions) contributions"')
+          echo "## Contributors" > CONTRIBUTORS.md
+          echo "$contributors" >> CONTRIBUTORS.md
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add CONTRIBUTORS.md
+          git commit -m "Update contributors"
+          git push
