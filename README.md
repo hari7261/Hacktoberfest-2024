@@ -78,7 +78,7 @@ For any questions or suggestions, feel free to reach out:
 
 ## Project Admin
 
-<table>
+<table align="center">
   <tr>
     <td align="center">
       <a href="https://github.com/hari7261">
@@ -98,11 +98,12 @@ We appreciate all contributions from our amazing community! Check out the contri
   <tr>
     <td align="center">
       <a href="https://github.com/hari7261/Hacktoberfest-2024/graphs/contributors">
-        <img src="https://contrib.rocks/image?repo=hari7261/Hacktoberfest-2024" alt="Contributors" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
+        <img src="https://contrib.rocks/image?repo=hari7261/Hacktoberfest-2024" alt="Contributors" />
       </a>
     </td>
   </tr>
 </table>
+
 
 <p align="center">
   <a href="https://github.com/hari7261/Hacktoberfest-2024/graphs/contributors">
