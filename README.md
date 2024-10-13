@@ -102,7 +102,7 @@ For any questions or suggestions, feel free to reach out:
   </tr>
 </table>
 
-
+[See all contributors](./CONTRIBUTORS.md)
 
 Happy Hacking! 🎉
 
